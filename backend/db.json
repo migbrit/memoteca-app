@@ -1,0 +1,22 @@
+{
+    "pensamentos": [
+        {
+            "id": 1,
+            "conteudo": "Lore Ipsum",
+            "autoria": "Mihail",
+            "modelo": "modelo1"
+        },
+        {
+            "id": 2,
+            "conteudo": "Ipsum lorentis",
+            "autoria": "Mihail",
+            "modelo": "modelo2"
+        },
+        {
+            "id": 3,
+            "conteudo": "Lorentios Ipsum",
+            "autoria": "Mihail",
+            "modelo": "modelo3"
+        }
+    ]
+}
