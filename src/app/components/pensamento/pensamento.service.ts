@@ -7,15 +7,26 @@ import { Pensamento } from './pensamento';
 })
 export class PensamentoService {
 
-  private readonly url = "http://localhost:3000/pensamentos";
+  private readonly baseUrl = "http://localhost:3000/pensamentos";
 
   constructor(private http: HttpClient) { }
 
   listar(){
-    return this.http.get<Pensamento[]>(this.url);
+    return this.http.get<Pensamento[]>(this.baseUrl);
   }
 
   criar(pensamento : Pensamento){
-    return this.http.post(this.url, pensamento);
+    return this.http.post(this.baseUrl, pensamento);
   }
+
+  excluir(id: number) {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Pensamento>(url)
+  }
+
+  buscarPorId(id: number){
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Pensamento>(url)
+  }
+  
 }
