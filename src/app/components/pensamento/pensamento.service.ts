@@ -28,5 +28,10 @@ export class PensamentoService {
     const url = `${this.baseUrl}/${id}`;
     return this.http.get<Pensamento>(url)
   }
+
+  editar(pensamento: Pensamento){
+    const url = `${this.baseUrl}/${pensamento.id}`;
+    return this.http.put<Pensamento>(url, pensamento)
+  }
   
 }
