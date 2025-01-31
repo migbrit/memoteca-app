@@ -1,27 +1,39 @@
 # Memoteca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+![Memoteca](https://github.com/user-attachments/assets/4abbd2c8-0e50-4dca-959a-f5df34fd4423)
+![Memoteca](https://github.com/user-attachments/assets/604ea204-26ca-4d05-913e-d5d257629995)
 
-## Development server
+A simple Angular project based on the Memoteca concept, allowing users to create and list quotes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- Add and store quotes
+- View and list stored quotes
+- Responsive and interactive UI
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/migbrit/memoteca-app
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd memoteca
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   ng serve
+   ```
 
-## Build
+## Technologies Used
+- Angular
+- TypeScript
+- CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## License
+This project is licensed under the MIT License.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
